@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "types": ["cypress"]
+    },
+    "include": [
+      "cypress/**/*.ts",
+      "cypress/support/**/*.ts",
+      "cypress/integration/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ],
+    "files": [
+      "cypress/support/index.ts",
+      "cypress/support/commands.ts",
+      "cypress/support/cypress.d.ts"
+    ]
+  }
